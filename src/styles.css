@@ -1,3 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import 'tailwindcss';
+
+@theme {    
+  --color-main: #000000;
+  --color-borderboxes: #6e6e6e;
+  --color-darkmain: #6c8f57;
+
+  --color-background: #8fb58b;
+  --color-foreground: #61885d;
+  --color-buttonspr: #65a264;
+  --color-buttonsacc: #97ca8a;
+  --color-navbar: #7ba177;
+  --color-linktext: #c1d9bf;
+
+  --font-sacramento: sacramento_regular, sans-serif;
+}
+
+.border-box {
+  border: 1px solid var(--color-borderboxes);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
