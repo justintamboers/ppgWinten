@@ -6,4 +6,7 @@ import { Component } from '@angular/core';
   templateUrl: './voorpagina.html',
   styleUrl: './voorpagina.css',
 })
-export class Voorpagina {}
+export class Voorpagina {
+  diagnosesImage = 'images/diagnoses.png';
+  onderhoudImage = 'images/onderhoud.png';
+}

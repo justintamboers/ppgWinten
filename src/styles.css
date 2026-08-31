@@ -5,16 +5,6 @@
 @theme {    
   --color-main: #000000;
   --color-borderboxes: #6e6e6e;
-  --color-darkmain: #6c8f57;
-
-  --color-background: #8fb58b;
-  --color-foreground: #61885d;
-  --color-buttonspr: #65a264;
-  --color-buttonsacc: #97ca8a;
-  --color-navbar: #7ba177;
-  --color-linktext: #c1d9bf;
-
-  --font-sacramento: sacramento_regular, sans-serif;
 }
 
 .border-box {
