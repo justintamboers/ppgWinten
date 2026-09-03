@@ -10,7 +10,11 @@ import { join } from 'node:path';
 const browserDistFolder = join(import.meta.dirname, '../browser');
 
 const app = express();
-const angularApp = new AngularNodeAppEngine();
+// const angularApp = new AngularNodeAppEngine();
+
+const appEngine = new AngularNodeAppEngine({
+  allowedHosts: ['*.app.github.dev', '5793c2w7-4200.euw.devtunnels.ms'],
+});
 
 /**
  * Example Express Rest API endpoints can be defined here.
@@ -39,7 +43,7 @@ app.use(
  * Handle all other requests by rendering the Angular application.
  */
 app.use((req, res, next) => {
-  angularApp
+  appEngine
     .handle(req)
     .then((response) =>
       response ? writeResponseToNodeResponse(response, res) : next(),

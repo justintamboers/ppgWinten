@@ -7,9 +7,10 @@ import { Component } from '@angular/core';
   styleUrl: './voorpagina.css',
 })
 export class Voorpagina {
+  startImage = 'images/startingbackground.png';
   diagnosesImage = 'images/diagnoses.png';
   onderhoudImage = 'images/onderhoud.png';
   remmenImage = 'images/remmen.png';
   electrischImage = 'images/electrisch.png';
-  startImage = 'images/startingbackground.png';
+  motorenaandrijvingImage = 'images/motorenaandrijving.png';
 }

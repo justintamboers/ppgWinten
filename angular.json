@@ -31,7 +31,10 @@
             "server": "src/main.server.ts",
             "outputMode": "server",
             "security": {
-              "allowedHosts": []
+            "allowedHosts": [
+              "*.app.github.dev",
+              "5793c2w7-4200.euw.devtunnels.ms/"
+            ]
             },
             "ssr": {
               "entry": "src/server.ts"
