@@ -13,4 +13,7 @@ export class Voorpagina {
   remmenImage = 'images/remmen.png';
   electrischImage = 'images/electrisch.png';
   motorenaandrijvingImage = 'images/motorenaandrijving.png';
+  bandenserviceImage = 'images/bandenservice.png';
+  keuringImage = 'images/keuring.png';
+  transportserviceImage = 'images/transportservice.png';
 }
